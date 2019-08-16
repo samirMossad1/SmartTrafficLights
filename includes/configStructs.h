@@ -65,17 +65,6 @@ GPIO_pinConfigStruct ledRed_t={
 
 /*TIMERS*/
 
-TIMER_ConfigStruct timer1_t={
-
-		TIMER_1,
-		_IGNORE_CHANNEL,
-		_NORMAL_MODE,
-		_OUTPUT_COMPARE_DISCONNECTED,
-		_NORMAL_PIN,
-		_IGNORE_EDGE
-
-};
-
 TIMER_ConfigStruct timer0_t={
 
 		TIMER_0,
